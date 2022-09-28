@@ -1,6 +1,6 @@
 import sys
 sys.path.insert(0,'../scripts/')
-from create_account import create_account
+from scripts.create_account import create_account
 
 
 def test_account_create():
