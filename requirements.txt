@@ -1,0 +1,6 @@
+pyteal
+flask
+py-algorand-sdk
+mypy
+pytest
+black
