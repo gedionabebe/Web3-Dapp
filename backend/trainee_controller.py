@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
 import sys,os,logging
 sys.path.insert(0,'../scripts/')
-from create_account import create_account
-from asset_optin import asset_optin
+from scripts.create_account import create_account
+from scripts.asset_optin import asset_optin
 logging.basicConfig(filename='../log/log.log', filemode='a',encoding='utf-8', level=logging.DEBUG)
 
 app = Flask(__name__)

@@ -1,0 +1,7 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+    <h1>{% block title %} Admin homepage {% endblock %}</h1>
+    <br>
+    <button><a href="{{ url_for('admin_account') }}"></a></button>
+{% endblock %}

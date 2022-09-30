@@ -1,26 +1,34 @@
-from flask import Flask, request, jsonify
+from flask import Flask, request, jsonify, render_template, url_for, flash, redirect
+from pymongo import MongoClient
 import sys,os,logging
 sys.path.insert(0,'../scripts/')
-from create_account import create_account
-from create_nft import create_nft
-from asset_transfer import asset_transfer
+from scripts.create_account import create_account
+from scripts.create_nft import create_nft
+from scripts.asset_transfer import asset_transfer
 logging.basicConfig(filename='../log/log.log', filemode='a',encoding='utf-8', level=logging.DEBUG)
 
 app = Flask(__name__)
+client = MongoClient('localhost', 27017)
+database = client.web3
+trainees = database.trainess
+admins = database.admins
 
 @app.route('/')
 def index():
     
-    return jsonify({
-                "status": "success",
-                "message": "Index Page"
-             })
+    return render_template('admin_index.html')
 
 @app.route('/create_account', methods=['GET', 'POST'])
 def admin_account():
     if request.method == 'GET':
         admin_acc = create_account()
-        return jsonify({
+        admin_info = {
+            "private_key":admin_acc[0],
+            "address":admin_acc[1],
+            "message":admin_acc[3]}
+        admins.insert_one(admin_info).inserted_id
+
+        return  render_template('admin_account.html',admin_info), jsonify({
             "status": "success",
             "private_key":admin_acc[0],
             "address":admin_acc[1],

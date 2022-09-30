@@ -1,0 +1,9 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+    <h1>{% block title %} Admin Account {% endblock %}</h1>
+    <br>
+    <p>{{admin_info.private_key}}</p>
+    <p>{{admin_info.address}}</p>
+    <p>{{admin_info.message}}</p>
+{% endblock %}
