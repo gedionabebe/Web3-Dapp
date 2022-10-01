@@ -6,7 +6,7 @@ from algosdk.future.transaction import AssetConfigTxn, wait_for_confirmation
 
 
 
-def create_nft(public_key,unit_name,asset_name):
+def create_NFT(public_key,unit_name,asset_name):
  
   algod_address = "https://testnet-algorand.api.purestake.io/ps2"
   algod_token = "hX5WEmJCdA8dS7wgsxZ57aBbUSzz8K0O5TPLrgVn"
@@ -18,8 +18,8 @@ def create_nft(public_key,unit_name,asset_name):
   params = algod_client.suggested_params()
  
   dir_path = os.path.dirname(os.path.realpath(__file__))
-  f = open (dir_path + '../assests/metadata.json', "r")
-  path = dir_path + '../assests/metadata.json'
+  f = open ('../assests/metadata.json', "r")
+  path ='../assests/metadata.json'
 
   metadataJSON = json.loads(f.read())
   metadataStr = json.dumps(metadataJSON)
@@ -46,22 +46,11 @@ def create_nft(public_key,unit_name,asset_name):
       metadata_hash=json_metadata_hash,
       decimals=0)
 
-  '''stxn = txn.sign(private_key)
-
-  txid = algod_client.send_transaction(stxn)
-
-
-  confirmed_txn = wait_for_confirmation(algod_client, txid, 4)
-  confirmed_round = confirmed_txn['confirmed-round']'''  
+  
+  
   
   try:
-      
-      '''ptx = algod_client.pending_transaction_info(txid)
-      asset_id = ptx["asset-index"]'''
-
       return txn
-
-      
   except Exception as e:
       print(e)
       return

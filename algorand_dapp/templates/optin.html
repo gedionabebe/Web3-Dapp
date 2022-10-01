@@ -1,11 +1,12 @@
-{% extends 'base.html' %}
+
 {% block content %}
 <br>
     <h1>{% block title %} Algosigner {% endblock %}</h1>
     <br>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script>
-        const txn = {{ nft|tojson }};
+        function sign(){
+        const txn = '{{ optin }}';
         AlgoSigner.connect();
         const server = 'https://testnet-algorand.api.purestake.io/ps2'
         const token = { 'X-API-Key': 'hX5WEmJCdA8dS7wgsxZ57aBbUSzz8K0O5TPLrgVn' }
@@ -20,20 +21,19 @@
   ledger: 'TestNet',
   path: '/v2/transactions/pending/' + tx.txId
 })
-        const txId = tx.txId
-        const trainee_name = {{ trainee_name|tojson }};
-        const public_key = {{ public_key|tojson }};
-        const unit_name = {{ unit_name|tojson }};
-        const asset_name = {{ asset_name|tojson }};
-        const status = 'None';
         const asset_id = transaction["asset-index"]
-        const dict_values = {asset_id,txId, trainee_name,public_key,unit_name,asset_name,status}
+        const txId = tx.txId
+        const status = 'Approved';
+        const dict_values = {txId,status,asset_id}
         const s = JSON.stringify(dict_values);
         $.ajax({
-            url:"/store_asset",
+            url:"/asset_view",
             type:"POST",
             contentType: "application/json",
             data: JSON.stringify(s)});
 
+        }
+        
     </script>
+    <input type = "button" onclick = "sign()" value = "Sign">
 {% endblock %}

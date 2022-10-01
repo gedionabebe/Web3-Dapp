@@ -1,0 +1,527 @@
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.162.228:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:17:11] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:17:14] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:17:44] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:05] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:20] "[35m[1mGET /create_account HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:22] "GET /create_account?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:22] "GET /create_account?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:23] "GET /create_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:18:23] "[36mGET /create_account?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:21:42] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:21:47] "GET /create_account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:22:44] "GET /create_account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:23:16] "GET /create_account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:34:12] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:34:36] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:35:48] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:37:26] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:37:32] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:38:14] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:38:42] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:38:43] "GET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:38:54] "GET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\werkzeug\\wrappers\\request.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\typing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:41:34] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:41:35] "GET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:41:35] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:41:35] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:41:36] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\hashlib.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:44:38] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:44:39] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:44:39] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:44:40] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:44:40] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:30] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:39] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:39] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:40] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:40] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:45:40] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.162.228:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:47:33] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:47:34] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:47:34] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:47:35] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:47:35] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:49:15] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\io.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:49:37] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\flask\\templating.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\jinja2\\environment.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\jinja2\\filters.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\jinja2\\utils.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\flask\\json\\provider.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\json\\encoder.py', reloading
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:50:09] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:50:10] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:50:13] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:52:14] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:52:16] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:52:54] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:53:22] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 17:59:28] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:01:25] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:02:22] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:03:02] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:03:58] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:06:59] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:07:36] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:08:42] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:09:29] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:14:23] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:14:30] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:15:17] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:16:17] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:18:40] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:18:45] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:21:31] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:21:36] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:21:37] "[33mGET /tx-test/common/helper.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:23:21] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:23:26] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:23:27] "[33mGET /tx-test/common/helper.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:36:56] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:37:02] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:37:02] "[33mGET /tx-test/common/helper.js HTTP/1.1[0m" 404 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:38:32] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:38:38] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:42:59] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:43:03] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:44:05] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:44:09] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:44:30] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:44:34] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:45:13] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:45:17] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:46:23] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:46:26] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:47:40] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 18:48:13] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\msgpack\\fallback.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\msgpack\\ext.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:01:45] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:01:52] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:02:33] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:02:38] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:40] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\flask\\app.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\json\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\json\\encoder.py', reloading
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:46] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:50] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:50] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:50] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:08:51] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:10:38] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:13:49] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:13:55] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:14:44] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:14:48] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:46] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:51] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:52] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:52] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:52] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:18:52] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:19:45] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:21] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:24] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:25] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:25] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:26] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:23:26] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:24:05] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:24:33] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:24:36] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:25:12] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:25:16] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:26:57] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:27:01] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:01] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:06] "[35m[1mPOST /create_nft HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:07] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:07] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:07] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:29:08] "[36mGET /create_nft?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:31:28] "POST /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:35:12] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 19:35:14] "GET /trainee_rquests HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_account.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_account.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\v2client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\v2client\\algod.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\future\\transaction.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\flask\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\pymongo\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\werkzeug\\datastructures.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\typing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\hashlib.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\io.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python39\\site-packages\\IPython\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\pip\\_vendor\\pyparsing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\pkg_resources\\_vendor\\pyparsing.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.162.228:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:06:33] "GET /trainee_rquests HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:10:03] "GET /trainee_rquests HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:10:33] "GET /create_account HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:10:58] "GET /create_nft HTTP/1.1" 200 -
+INFO:werkzeug:[31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:33507
+ * Running on http://192.168.162.228:33507
+INFO:werkzeug:[33mPress CTRL+C to quit[0m
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:14:55] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:15:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:23] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:34] "GET / HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:47] "[35m[1mGET /asset_view HTTP/1.1[0m" 500 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:49] "GET /asset_view?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:49] "GET /asset_view?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:50] "GET /asset_view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1" 200 -
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:16:50] "[36mGET /asset_view?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:17:31] "GET /asset_view HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:19:12] "GET /asset_view HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug:127.0.0.1 - - [01/Oct/2022 21:22:10] "GET /asset_view HTTP/1.1" 200 -
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\trainee_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\v2client\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\v2client\\algod.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\encoding.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\future\\__init__.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\msgpack\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\msgpack\\exceptions.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\signing.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\encoding.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\utils.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\bindings\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\nacl\\bindings\\crypto_sign.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\account.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\create_nft.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_transfer.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\scripts\\asset_optin.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\db_init.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\Desktop\\Web3-Dapp\\backend\\admin_controller.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Users\\User\\AppData\\Roaming\\Python\\Python39\\site-packages\\IPython\\__init__.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\constants.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\future\\transaction.py', reloading
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\site-packages\\algosdk\\mnemonic.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
+INFO:werkzeug: * Detected change in 'C:\\Python39\\Lib\\base64.py', reloading
+INFO:werkzeug: * Restarting with watchdog (windowsapi)
+WARNING:werkzeug: * Debugger is active!
+INFO:werkzeug: * Debugger PIN: 458-566-380
