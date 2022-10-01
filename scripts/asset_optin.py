@@ -29,15 +29,15 @@ def asset_optin(public_key,private_key,asset_id):
         receiver=public_key,
         amt=0,
         index=asset_id)
-        stxn = txn.sign(private_key)
+        #stxn = txn.sign(private_key)
         
         try:
-            txid = algod_client.send_transaction(stxn)
+            '''txid = algod_client.send_transaction(stxn)
             
             confirmed_txn = wait_for_confirmation(algod_client, txid, 4)
-            confirmed_round = confirmed_txn['confirmed-round'] 
+            confirmed_round = confirmed_txn['confirmed-round']''' 
            
-            return txid, asset_id, confirmed_round    
+            return txn   
         except Exception as err:
             print(err)
             return

@@ -16,13 +16,18 @@
         tx=AlgoSigner.send({
         ledger: 'TestNet',
          tx: signedTxs[0].blob});
+        const transaction = AlgoSigner.algod({
+  ledger: 'TestNet',
+  path: '/v2/transactions/pending/' + tx.txId
+})
         const txId = tx.txId
         const trainee_name = {{ trainee_name|tojson }};
         const public_key = {{ public_key|tojson }};
         const unit_name = {{ unit_name|tojson }};
         const asset_name = {{ asset_name|tojson }};
         const status = 'None';
-        const dict_values = {txId, trainee_name,public_key,unit_name,asset_name,status}
+        const asset_id = transaction["asset-index"]
+        const dict_values = {asset_id,txId, trainee_name,public_key,unit_name,asset_name,status}
         const s = JSON.stringify(dict_values);
         $.ajax({
             url:"/store_asset",

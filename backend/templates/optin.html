@@ -5,7 +5,7 @@
     <br>
     <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>
     <script>
-        const txn = {{ transfer|tojson }};
+        const txn = {{ optin|tojson }};
         AlgoSigner.connect();
         const server = 'https://testnet-algorand.api.purestake.io/ps2'
         const token = { 'X-API-Key': 'hX5WEmJCdA8dS7wgsxZ57aBbUSzz8K0O5TPLrgVn' }
@@ -26,7 +26,7 @@
         const dict_values = {txId,status,asset_id}
         const s = JSON.stringify(dict_values);
         $.ajax({
-            url:"/update_asset",
+            url:"/asset_view",
             type:"POST",
             contentType: "application/json",
             data: JSON.stringify(s)});

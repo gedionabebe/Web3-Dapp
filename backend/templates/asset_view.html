@@ -1,7 +1,7 @@
 {% extends 'base.html' %}
 {% block content %}
 <br>
-    <h1>{% block title %} Trainee Requests {% endblock %}</h1>
+    <h1>{% block title %} Asset View {% endblock %}</h1>
     <br>
     <div class="container">
         <div class="row">
@@ -9,6 +9,7 @@
             <table class="table table-bordered">
               <thead>
                 <tr>
+                  <th scope="col">Asset ID</th>
                   <th scope="col">TxID</th>
                   <th scope="col">Trainee Name</th>
                   <th scope="col">Unit Name</th>
@@ -17,7 +18,7 @@
                 </tr>
               </thead>
               <tbody>
-                {%for each in data%}
+                
                 <tr>
                   <th scope="row">1</th>
                   <td>{{each.asset_id}}</td>
@@ -27,16 +28,16 @@
                   <td>{{each.asset_name}}</td>
                   <td>{{each.status}}</td>
                   <td>
-                    <form method="post" action="/transfer_asset">
+                    <form method="post" action="/asset_optin">
                         <input type="hidden" id="asset_id" name="asset_id" value={{each.asset_id}}>
                         <input type="hidden" id="public_key" name="public_key" value={{each.public_key}}>
                         <input type="hidden" id="receiver_public_key" name="receiver_public_key" value={{each.receiver_public_key}}>
-                        <input type="submit" value="approved" name="action1"/>
-                        <input type="submit" value="declined" name="action2" />
+                        <input type="submit" value="optin" name="action1"/>
+                
                     </form>
                   </td>
                 </tr>
-                {%endfor%}
+                
                 
               </tbody>
             </table>

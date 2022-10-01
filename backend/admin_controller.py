@@ -1,4 +1,4 @@
-from flask import Flask, request, jsonify, render_template, url_for, flash, redirect
+from flask import Flask, request, jsonify, render_template, url_for, redirect
 from pymongo import MongoClient
 import sys,os,logging,json
 sys.path.insert(0,'../scripts/')
@@ -53,12 +53,12 @@ def transfer_asset():
         sender_public_key = request.form()['public_key']
         #sender_private_key = request.get_json()['sender_private_key']
         receiver_public_key = request.form()['receiver_public_key']
-        asset_id = request.form()['txId']
+        asset_id = request.form()['asset_id']
         if request.form.get('action1') == 'approved':
             transfer = asset_transfer(sender_public_key,receiver_public_key,asset_id)
             return render_template('transfer_asset.html',transfer=transfer)
         elif request.form.get('action2') == 'declined':
-            trainees.update_one({'txId':asset_id},{ "$set": { 'status': "Declined" } })
+            trainees.update_one({'asset_id':asset_id},{ "$set": { 'status': "Declined" } })
             return redirect(url_for('trainee_rquests'))
         
 
@@ -74,3 +74,12 @@ def store_asset():
 def trainee_requests():
     data = trainees.find()
     return render_template('trainee_requests.html',data=data)
+@app.route('/update_asset',methods=['GET','POST'])
+def update_asset():
+    if request.method =='POST':
+        output = request.get_json()
+        result = json.loads(output)
+        id = result['asset_id']
+        status = result['status']
+        trainees.update_one({'asset_id':id},{ "$set": { 'status': status } })
+        return redirect(url_for('trainee_rquests'))
