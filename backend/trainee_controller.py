@@ -16,8 +16,8 @@ def index():
     
     return render_template('trainee_index.html')
 
-@app.route('/create_account', methods=['GET', 'POST'])
-def user_account():
+@app.route('/create_user_account', methods=['GET', 'POST'])
+def create_user_account():
     if request.method == 'POST':
         user_acc = create_account()
         receiver_public_key=user_acc[1]

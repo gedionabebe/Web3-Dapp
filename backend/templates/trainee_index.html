@@ -1,0 +1,22 @@
+{% extends 'base.html' %}
+{% block content %}
+<br>
+    <h1>{% block title %} Create NFT {% endblock %}</h1>
+    <br>
+    <nav>
+        <a href="{{ url_for('create_user_account') }}">Create Account</a> |
+        <a href="{{ url_for('asset_view') }}">Asset View</a> |
+        </nav>
+        <form class="mb-3" method="POST" action="{{ url_for('create_user_account') }}">
+            <h3>Account Creation Form</h3>
+            <br>
+            <div class="form-group">
+                <label for="trainee_name" class="form-label">Input trainee name</label>
+                <input type="text" class="form-control" name="trainee_name" id="trainee_name" placeholder="input your name . . ."></input>
+            </div>
+            <br>
+            <div class="form-group">
+                <button class="btn btn-dark" type="submit">Submit</button>
+            </div>
+        </form>
+        {% endblock %}

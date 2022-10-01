@@ -3,5 +3,10 @@
 <br>
     <h1>{% block title %} Admin homepage {% endblock %}</h1>
     <br>
-    <button><a href="{{ url_for('admin_account') }}"></a></button>
+    <nav>
+        <a href="{{ url_for('admin_account') }}">Create Account</a> |
+        <a href="{{ url_for('create_nft') }}">Create NFT</a> |
+        <a href="{{ url_for('trainee_requests') }}">Trainee Requests</a> |
+        </nav>
+    <button><a href="{{ url_for('admin_account') }}"></a>Create Account</button>
 {% endblock %}

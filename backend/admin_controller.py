@@ -68,7 +68,7 @@ def store_asset():
         output = request.get_json()
         result = json.loads(output)
         trainees.insert_one(result).inserted_id
-        return 
+        return redirect(url_for('trainee_rquests'))
 
 @app.route('/trainee_rquests',methods=['GET','POST'])
 def trainee_requests():

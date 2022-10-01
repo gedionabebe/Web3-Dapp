@@ -18,8 +18,8 @@ def create_nft(public_key,unit_name,asset_name):
   params = algod_client.suggested_params()
  
   dir_path = os.path.dirname(os.path.realpath(__file__))
-  f = open (dir_path + '/assests/test.json', "r")
-  path = dir_path + '/assests/test.json'
+  f = open (dir_path + '../assests/metadata.json', "r")
+  path = dir_path + '../assests/metadata.json'
 
   metadataJSON = json.loads(f.read())
   metadataStr = json.dumps(metadataJSON)

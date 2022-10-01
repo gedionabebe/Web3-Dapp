@@ -3,6 +3,10 @@
 <br>
     <h1>{% block title %} Asset View {% endblock %}</h1>
     <br>
+    <nav>
+      <a href="{{ url_for('create_user_account') }}">Create Account</a> |
+      <a href="{{ url_for('asset_view') }}">Asset View</a> |
+      </nav>
     <div class="container">
         <div class="row">
           <div class="col-12">
@@ -21,17 +25,17 @@
                 
                 <tr>
                   <th scope="row">1</th>
-                  <td>{{each.asset_id}}</td>
-                  <td>{{each.txId}}</td>
-                  <td>{{each.trainee_name}}</td>
-                  <td>{{each.unit_name}}</td>
-                  <td>{{each.asset_name}}</td>
-                  <td>{{each.status}}</td>
+                  <td>{{data.asset_id}}</td>
+                  <td>{{data.txId}}</td>
+                  <td>{{data.trainee_name}}</td>
+                  <td>{{data.unit_name}}</td>
+                  <td>{{data.asset_name}}</td>
+                  <td>{{data.status}}</td>
                   <td>
                     <form method="post" action="/asset_optin">
-                        <input type="hidden" id="asset_id" name="asset_id" value={{each.asset_id}}>
-                        <input type="hidden" id="public_key" name="public_key" value={{each.public_key}}>
-                        <input type="hidden" id="receiver_public_key" name="receiver_public_key" value={{each.receiver_public_key}}>
+                        <input type="hidden" id="asset_id" name="asset_id" value={{data.asset_id}}>
+                        <input type="hidden" id="public_key" name="public_key" value={{data.public_key}}>
+                        <input type="hidden" id="receiver_public_key" name="receiver_public_key" value={{data.receiver_public_key}}>
                         <input type="submit" value="optin" name="action1"/>
                 
                     </form>
